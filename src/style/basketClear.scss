@@ -1,0 +1,45 @@
+.basket-clear {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  &__heading {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    * {
+      text-align: center;
+      position: relative;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      color: #000000;
+    }
+  }
+  &__paragraf {
+    position: relative;
+    height: 52px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #777777;
+  }
+  margin-bottom: 20px;
+  &__button {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 250px;
+    cursor: pointer;
+    height: 80px;
+    &:hover {
+      background: orange;
+    }
+  }
+}

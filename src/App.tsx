@@ -1,0 +1,22 @@
+import React from "react";
+import { Header } from "./components";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Shop from "./pages/Shop";
+import Cart from "./pages/Cart";
+import "./style/index.scss";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Header />
+      <React.Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<Shop />}></Route>
+          <Route path="/cart" element={<Cart />}></Route>
+        </Routes>
+      </React.Suspense>
+    </BrowserRouter>
+  );
+}
+
+export default App;

@@ -1,0 +1,50 @@
+.cart {
+  width: auto;
+  height: auto;
+  border: solid 2px orange;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  &__image {
+    width: 80px;
+    height: 80px;
+  }
+  &__button {
+    margin-top: 2px;
+    width: 15 0px;
+    font-size: 24px;
+    font-weight: 700;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    &:hover {
+      background-color: red;
+    }
+  }
+  &__complite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 10px;
+    height: 50px;
+    background: greenyellow;
+    border: 2px solid green;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+}
