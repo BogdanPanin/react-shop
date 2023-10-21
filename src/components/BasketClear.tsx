@@ -11,7 +11,7 @@ const BasketClear = () => {
         Вероятней всего, вы не заказывали ещё товар. Для того, чтобы заказать
         товар, перейди на главную страницу.
       </p>
-      <Link to="/">
+      <Link to="/react-shop/">
         <button className="basket-clear__button">
           <p className="">Вернуться назад</p>
         </button>

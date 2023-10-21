@@ -11,8 +11,8 @@ function App() {
       <Header />
       <React.Suspense fallback={<div>Loading...</div>}>
         <Routes>
-          <Route path="/" element={<Shop />}></Route>
-          <Route path="/cart" element={<Cart />}></Route>
+          <Route path="/react-shop/" element={<Shop />}></Route>
+          <Route path="/react-shop/cart" element={<Cart />}></Route>
         </Routes>
       </React.Suspense>
     </BrowserRouter>
