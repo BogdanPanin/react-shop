@@ -9,7 +9,13 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <React.Suspense fallback={<div>Loading...</div>}>
+      <React.Suspense
+        fallback={
+          <div className="spin-wrapper">
+            <div className="spinner"></div>
+          </div>
+        }
+      >
         <Routes>
           <Route path="/react-shop/" element={<Shop />}></Route>
           <Route path="/react-shop/cart" element={<Cart />}></Route>

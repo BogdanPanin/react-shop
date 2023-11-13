@@ -15,7 +15,7 @@
       font-style: normal;
       font-weight: bold;
       font-size: 32px;
-      color: #000000;
+      color: #f2f2f2;
     }
   }
   &__paragraf {
@@ -24,7 +24,7 @@
     margin-bottom: 20px;
     font-size: 18px;
     text-align: center;
-    color: #777777;
+    color: #f2f2f2;
   }
   margin-bottom: 20px;
   &__button {
@@ -33,13 +33,18 @@
     font-size: 20px;
     outline: none;
     text-align: center;
-    border: 2px solid orange;
+    border: 2px solid f96d00;
     border-radius: 10px;
     width: 250px;
     cursor: pointer;
+    color: #f2f2f2;
     height: 80px;
+    background-color: transparent;
+    border: 2px solid #f96d00;
+    box-shadow: inset 0 0 0.5em 0 #f96d00, 0 0 0.5em 0 #f96d00;
+    transition: 0.3s;
     &:hover {
-      background: orange;
+      background: #f96d00;
     }
   }
 }
